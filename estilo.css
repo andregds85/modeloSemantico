@@ -1,0 +1,48 @@
+header{    
+    background-image: url("header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; 
+    padding-top: 30%;
+}
+
+nav{
+background-color: black;
+font-size: 30px;  /* Tamanho da fonte */ 
+color: white;
+
+}
+
+li{
+    display: inline; /* inline vai deixar um ao lado do outro */ 
+    color: white; /* cor da fonte */ 
+}
+
+nav li:hover{         /* hover é um efeito ao passar o mouse  */ 
+    color: white;    /* cor da fonte */  
+    background-color: white; /* background-color:  Cor do Fundo */ 
+}
+
+#sobre{
+    padding: 50%; /* espaço  */
+    background-image: url("sobre.jpg"); /* imagem de fundo */ 
+    background-size: cover; /* alinha conforme o tamanho da seção */  
+}
+
+#servicos{
+    padding: 50%;
+    background-image: url("servicos.jpg");
+    background-size: cover;
+}
+
+#contato{
+    padding: 50%;
+    background: url("contato.jpg");
+    background-size: cover;
+}
+
+
+
+footer{
+    background-color: orange;
+}
+
